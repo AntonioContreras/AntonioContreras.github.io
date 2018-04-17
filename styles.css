@@ -1,0 +1,140 @@
+h0{font-family: times;
+color: teal;
+}
+
+h1{font-family: Times; 
+color: white;
+}
+
+.title{color: gray;
+}
+
+p
+{font-family: Times; 
+color: white;
+position: inherit;
+bottom: 0px;
+top: -60px;
+right: 20px;
+margin: 45px;
+display: inline-block;
+height: 120px;
+width: 50%;
+font-size: 12;
+}
+
+p2{
+float: right;
+text-align: left;
+height: 10px;
+top: 5px;
+}
+
+img{
+left: 20px;
+float: left;
+position: relative;
+}
+
+h2{
+font-family: times;
+bottom: -40px;
+color: white;
+font-size: 12;
+position: inherit;
+text-align: center;
+display: inline-block;
+}
+
+nov ul{display: inline;
+}
+
+nov li { padding: 10px; display:inline;
+}
+iframe{
+bottom: -40px;
+}
+
+body{background-attachment: fixed; 
+background-image: url(https://www.planwallpaper.com/static/images/vladstudio-squares-Cool-Background_xiUa895.jpg);
+background-color: white;
+}
+
+header,
+.name a {font-size: 20;
+font-weight: 100;
+letter-spacing: 2px;
+margin: 5px 15px;
+padding: 40px 0px;
+position: relative; 
+text-align: center;  
+width: 100%;
+z-index: 10;
+color: white;
+}
+
+.nov a{
+background: #33DCFF;
+border: 1px solid black;
+border-radius: 3px;
+color: white;
+display: inline-block;
+padding: 14px;
+text-decoration: none;
+}
+
+.grid{
+  display: grid;
+  width: 50px;
+  height: 100px;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+  grid-spacing: 10px;
+}
+
+.b{
+  display: grid;
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+
+.c{
+  display: grid;
+grid-column: 2 / 3;
+grid-row: 1 / 2;
+}
+
+.f{
+  display: grid;
+grid-column: 3 / 4;
+grid-row: 1 / 2;
+}
+
+.d{
+  display: grid;
+grid-column: 1 / 2;
+grid-row: 2 / 3;
+}
+
+.e{
+  display: grid;
+grid-column: 2 / 3;
+grid-row: 2 / 3;
+}
+
+.g{
+  display: grid;
+grid-column: 3 / 4;
+grid-row: 2 / 3;
+}
+
+h3{color: #FFD700; 
+text-align: left;
+font-size: 24.4px;
+}
+
+li{color: #FFD700;
+text-align: left;
+font-size: 24.4px;
+}
